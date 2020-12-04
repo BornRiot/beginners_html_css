@@ -1,0 +1,32 @@
+body{
+  background-color:black;
+}
+
+h1{
+  color: orange;
+}
+p{
+  color:yellow;
+  font-size: 18px;
+  font-weight:bold;
+  font-style:italic;
+}
+
+/* you can target multiple selectors to affect their styling */
+h2, h3{
+  color:blue;
+  font-weight:bold;
+  font-style: italic;
+
+}
+
+div{
+  color:green;
+}
+
+
+
+/* You can target elements inside divs using a parent child style */
+div p{
+  color:red;
+}
