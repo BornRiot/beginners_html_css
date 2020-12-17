@@ -1,0 +1,23 @@
+#hover{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url(../images/konisegg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+#hover h2 {
+  text-align:center;
+
+}
+#hover:hover {
+  /*  Pseudo selector*/
+  /* background-color: #000; */
+  border: 1px solid red;
+  color: #0f328a
+  opacity: 1;
+
+
+}
